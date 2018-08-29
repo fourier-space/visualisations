@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+:any-link {
+  color: #06f; text-decoration: none;
+}
+
+foreignObject input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
