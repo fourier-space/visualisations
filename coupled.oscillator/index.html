@@ -1,8 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
-"Coupled Harmonic Oscillator" by A. Freddie Page, Imperial College London © 2017
- https://fourier.space
--->
+<!doctype html>
+<meta charset="utf-8">
+<meta content="image/svg+xml;charset=utf-8" http-equiv="Content-Type">
+<title>Coupled Harmonic Oscillator - Vibrations and Waves</title>
+<link rel="stylesheet" href="default.css">
+<script src="main.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "extensions": ["tex2jax.js"],
+    "jax": ["input/TeX", "output/SVG"],
+    "tex2jax": {
+      "inlineMath": [ ['$','$'] ],
+      "displayMath": [ ['$$','$$'] ],
+      "processEscapes": true,
+    },
+    "TeX": {
+      "extensions": ["color.js"]
+    },
+    "SVG": {
+      "scale": 80
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js'></script>
+
 <svg
    xmlns:ns0="http://www.iki.fi/pav/software/textext/"
    xmlns:xhtml="http://www.w3.org/1999/xhtml"
@@ -19,42 +39,8 @@
    style="display: block; margin: auto; overflow: hidden;"
    onload="MODULE.init();">
 
-  <foreignObject>
-    <head xmlns="http://www.w3.org/1999/xhtml">
-      <meta
-         content="image/svg+xml;charset=utf-8"
-         http-equiv="Content-Type" />
-      <title>Coupled Harmonic Oscillator - Vibrations and Waves</title>
-<script src="main.js"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    "extensions": ["tex2jax.js", "mml2jax.js"],
-    "jax": ["input/TeX", "input/MathML", "output/SVG"],
-    "tex2jax": {
-      "inlineMath": [ ['$','$'], ["\\(","\\)"] ],
-      "displayMath": [ ['$$','$$'], ["\\[","\\]"] ],
-      "processEscapes": true,
-    },
-    "TeX": {
-      "extensions": ["color.js"]
-    },
-    "SVG": {
-      "scale": 80
-    },
-    "MathML": {
-      "useMathMLspacing": true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js'></script>
-      <style>
-        :any-link { color: #06f; text-decoration: none; }
-      </style>
-    </head>
-  </foreignObject>
-
   <defs id="defs4">
-    \( \definecolor{red}{RGB}{255,0,0} \definecolor{green}{RGB}{0,128,0} \definecolor{blue}{RGB}{0,128,255} \)
+    $ \definecolor{red}{RGB}{255,0,0} \definecolor{green}{RGB}{0,128,0} \definecolor{blue}{RGB}{0,128,255} $
     <clipPath id="grCircular1Clip"><rect x="30" y="197" width="210" height="210" /></clipPath>
     <clipPath id="grCircular2Clip"><rect x="30" y="407" width="210" height="210" /></clipPath>
     <clipPath id="grCircularU1Clip"><rect x="660" y="197" width="210" height="210" /></clipPath>
@@ -555,11 +541,11 @@
            d="M 396.41,708.45 V 708.45 708.46 708.46 708.47 708.48 L 396.42,708.49 V 708.5 708.51 708.52 708.53 708.55 708.56 L 396.43,708.57 V 708.59 708.6 L 396.44,708.62 V 708.64 708.65 L 396.45,708.67 396.46,708.69 V 708.71 L 396.47,708.72 396.48,708.74 396.49,708.76 396.5,708.78 396.51,708.8 396.52,708.82 396.53,708.84 396.54,708.86 396.55,708.88 396.57,708.89 396.58,708.91 C 396.97,708.64 397.38,708.6 397.57,708.6 V 708.83 C 396.7,708.83 396.7,709.83 396.7,710.05 396.7,710.32 396.71,710.64 396.86,710.89 396.94,711.01 397.17,711.29 397.57,711.29 398.44,711.29 398.44,710.29 398.44,710.07 398.44,709.8 398.43,709.48 398.28,709.23 398.2,709.11 397.97,708.83 397.57,708.83 V 708.83 708.6 C 398.5,708.6 399.19,709.29 399.19,710.05 399.19,710.42 399.03,710.79 398.78,711.02 399.14,711.36 399.5,711.41 399.67,711.41 399.7,711.41 399.74,711.41 399.77,711.4 399.67,711.36 399.61,711.25 399.61,711.13 399.61,710.96 399.74,710.84 399.9,710.84 400,710.84 400.19,710.91 400.19,711.14 400.19,711.31 400.07,711.62 399.68,711.62 399.49,711.62 399.05,711.57 398.63,711.16 398.21,711.49 397.79,711.52 397.57,711.52 396.64,711.52 395.96,710.83 395.96,710.07 395.96,709.63 396.17,709.25 396.42,709.04 396.3,708.89 396.11,708.57 396.11,708.22 396.11,707.91 396.24,707.53 396.55,707.33 395.96,707.16 395.64,706.74 395.64,706.34 395.64,705.62 396.62,705.08 397.84,705.08 L 397.85,705.31 C 396.84,705.31 396.15,705.81 396.15,706.34 396.15,706.8 396.53,707.16 396.97,707.19 H 397.56 C 398.42,707.19 399.54,707.19 399.54,706.34 399.54,705.8 398.83,705.31 397.85,705.31 V 705.31 L 397.84,705.08 C 399.02,705.08 400.05,705.59 400.05,706.36 400.05,706.71 399.91,707.21 399.41,707.49 398.88,707.77 398.3,707.77 397.69,707.77 397.44,707.77 397.01,707.77 396.94,707.78 396.62,707.82 396.41,708.13 396.41,708.45 Z"
            style="fill:#000000;stroke-width:0" /></g>
       <foreignObject
-         width="129.84"
-         height="40.447983"
+         width="128"
+         height="40"
          x="92.580002"
          y="88.654198" >
-         <input id="ω1" value="1" style="width: 128; height: 40px;"
+         <input id="ω1" value="1"
          type="number"
          min="0"
          max="20"
@@ -568,9 +554,9 @@
       <foreignObject
          y="134.7982"
          x="92.580002"
-         height="40.447983"
-         width="129.84" >
-         <input id="m1" value="10" style="width: 128; height: 40px;"
+         height="40"
+         width="128" >
+         <input id="m1" value="10"
          type="number"
          min="1"
          max="1000"
@@ -641,8 +627,8 @@
          y="88.654198"
          x="375.08002"
          height="40.447983"
-         width="129.84">
-         <input id="ωJ" value="1" style="width: 128; height: 40px;"
+         width="128">
+         <input id="ωJ" value="1"
          type="number"
          min="0"
          max="20"
@@ -747,11 +733,11 @@
            d="M 396.41,708.45 V 708.45 708.46 708.46 708.47 708.48 L 396.42,708.49 V 708.5 708.51 708.52 708.53 708.55 708.56 L 396.43,708.57 V 708.59 708.6 L 396.44,708.62 V 708.64 708.65 L 396.45,708.67 396.46,708.69 V 708.71 L 396.47,708.72 396.48,708.74 396.49,708.76 396.5,708.78 396.51,708.8 396.52,708.82 396.53,708.84 396.54,708.86 396.55,708.88 396.57,708.89 396.58,708.91 C 396.97,708.64 397.38,708.6 397.57,708.6 V 708.83 C 396.7,708.83 396.7,709.83 396.7,710.05 396.7,710.32 396.71,710.64 396.86,710.89 396.94,711.01 397.17,711.29 397.57,711.29 398.44,711.29 398.44,710.29 398.44,710.07 398.44,709.8 398.43,709.48 398.28,709.23 398.2,709.11 397.97,708.83 397.57,708.83 V 708.83 708.6 C 398.5,708.6 399.19,709.29 399.19,710.05 399.19,710.42 399.03,710.79 398.78,711.02 399.14,711.36 399.5,711.41 399.67,711.41 399.7,711.41 399.74,711.41 399.77,711.4 399.67,711.36 399.61,711.25 399.61,711.13 399.61,710.96 399.74,710.84 399.9,710.84 400,710.84 400.19,710.91 400.19,711.14 400.19,711.31 400.07,711.62 399.68,711.62 399.49,711.62 399.05,711.57 398.63,711.16 398.21,711.49 397.79,711.52 397.57,711.52 396.64,711.52 395.96,710.83 395.96,710.07 395.96,709.63 396.17,709.25 396.42,709.04 396.3,708.89 396.11,708.57 396.11,708.22 396.11,707.91 396.24,707.53 396.55,707.33 395.96,707.16 395.64,706.74 395.64,706.34 395.64,705.62 396.62,705.08 397.84,705.08 L 397.85,705.31 C 396.84,705.31 396.15,705.81 396.15,706.34 396.15,706.8 396.53,707.16 396.97,707.19 H 397.56 C 398.42,707.19 399.54,707.19 399.54,706.34 399.54,705.8 398.83,705.31 397.85,705.31 V 705.31 L 397.84,705.08 C 399.02,705.08 400.05,705.59 400.05,706.36 400.05,706.71 399.91,707.21 399.41,707.49 398.88,707.77 398.3,707.77 397.69,707.77 397.44,707.77 397.01,707.77 396.94,707.78 396.62,707.82 396.41,708.13 396.41,708.45 Z"
            style="fill:#000000;stroke-width:0" /></g>
       <foreignObject
-         width="129.84"
+         width="128"
          height="40.447983"
          x="657.58002"
          y="88.654198" >
-         <input id="ω2" value="1" style="width: 128; height: 40px;"
+         <input id="ω2" value="1"
          type="number"
          min="0"
          max="20"
@@ -761,8 +747,8 @@
          y="134.7982"
          x="657.58002"
          height="40.447983"
-         width="129.84">
-         <input id="m2" value="10" style="width: 128; height: 40px;"
+         width="128">
+         <input id="m2" value="10"
          type="number"
          min="1"
          max="1000"
@@ -1637,692 +1623,516 @@
          x="50"
          height="140.00002"
          width="810" style="font-family: Helvetica, 'Nimbus Sans L', Arial, sans-serif; font-size: 13pt" ><div id="scrollbox" style="height: 100%; margin:0px; padding: 0px;">
+
+
 <div id="intro1">
-  <strong>Coupled Harmonic Oscillator</strong> - A. Freddie Page, Imperial College London<br />
+  <strong>Coupled Harmonic Oscillator</strong> - A. Freddie Page, Imperial College London
+  <br />
+
   In this worksheet, we will go step by step through the
   <em>coupled harmonic oscillator</em> system, building up our intuition as we go.
   This worksheet is interactive;
   at every stage you should feel free to experiment with the elements in the page.
   <br />
+
   Grab one of the masses with your mouse, try moving it around and throwing it.
 </div>
+
+
 <div id="intro2">
   Before we dive into the full coupled system, it's worth looking at a
   <a href="https://en.wikipedia.org/wiki/Simple_harmonic_motion" target="_blank">single oscillator</a>
   - e.g. a mass on a spring.
   Recall that this system has the equation of motion,
-  \( \ddot x_1(t) = -\frac{k_1}{m_1} x_1(t) \)
-  for spring constant \( k_1 \)
-  and mass \( m_1 \).
+  $ \ddot x_1(t) = -\frac{k_1}{m_1} x_1(t) $
+  for spring constant $ k_1 $
+  and mass $ m_1 $.
   This system oscillates in harmonic motion with a frequency
-  \( ω_1 = \sqrt{\frac{k_1}{m_1}} \).
+  $ ω_1 = \sqrt{\frac{k_1}{m_1}} $.
   Using this, the equation of motion can be re-written as,
-  \( \ddot x_1(t) = -ω_1^2 x_1(t) \)
+  $ \ddot x_1(t) = -ω_1^2 x_1(t) $
   with a solution
-  \( x_1(t) = A_1 \cos(ω_1 t + φ_1) \).
+  $ x_1(t) = A_1 \cos(ω_1 t + φ_1) $.
 </div>
+
+
 <div id="intro3">
   In this worksheet, we will focus on frequencies rather than spring constants.
   We'll define our springs from now on in terms of their natural frequency
   (we can always convert back, with
-  <math>
-  <msub><mi>k</mi><mn>1</mn></msub>
-  <mo>=</mo>
-  <msub><mi>m</mi><mn>1</mn></msub><msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup>
-  </math>
-  ).<br /><br />
+  $ k_1 = m_1 ω_1^2 $
+  ).
+  <br /><br />
+
   Experiment with different natural frequencies and masses.
   <br />
+
   For a single mass with frequency held constant,
   altering the mass doesn't affect the motion.
 </div>
+
+
 <div id="intro4">
   Harmonic motion is also referred to as circular motion, since if we plot the
-  displacement of our oscillator, <math><msub><mi>x</mi><mn>1</mn></msub></math>,
+  displacement of our oscillator, $ x_1 $,
   against its velocity (scaled by frequency to get the dimensions right),
-  <math>
-  <mfrac>
-  <msub><mover><mi>x</mi><mo>.</mo></mover><mn>1</mn></msub>
-  <msub><mi>ω</mi><mn>1</mn></msub>
-  </mfrac>
-  </math>,
+  $ \frac{\dot{x}_1}{ω_1} $,
   then in <em>phase space</em>, the particle moves in a circle.
   The interpretation of this is that the system is constantly exchanging
   potential energy,
-  <math>
-  <mfrac><mn>1</mn><mn>2</mn></mfrac>
-  <msub><mi>k</mi><mn>1</mn></msub>
-  <msubsup><mi>x</mi><mn>1</mn><mn>2</mn></msubsup>
-  </math>,
+  $ \frac{1}{2} k_1 x_1^2 $,
   and kinetic energy,
-  <math>
-  <mfrac><mn>1</mn><mn>2</mn></mfrac>
-  <msub><mi>k</mi><mn>1</mn></msub>
-  <msup><mrow><mo>(</mo>
-  <mfrac>
-  <msub><mover><mi>x</mi><mo>.</mo></mover><mn>1</mn></msub>
-  <msub><mi>ω</mi><mn>1</mn></msub>
-  </mfrac>
-  <mo>)</mo></mrow><mn>2</mn></msup>
-  </math>.
+  $ \frac{1}{2} k_1 \left( \frac{\dot{x}_1}{ω_1} \right )^2 $.
 </div>
+
+
 <div id="twoMasses1">
-  Let's add another mass - We now have two <em>un-coupled</em> oscillators.<br />
-  The motion of each mass is independent of the other.<br />
-  Each mass has it's own amplitude, frequency, and phase.<br />
+  Let's add another mass - We now have two <em>un-coupled</em> oscillators.
+  <br />
+
+  The motion of each mass is independent of the other.
+  <br />
+
+  Each mass has it's own amplitude, frequency, and phase.
+  <br />
+
   The masses do not exchange any energy between each other.
 </div>
+
+
 <div id="twoMasses2">
   Let's do a bit of book-keeping here.
-  There are two <em>modes</em> of oscillation of this system.<br />
+  There are two <em>modes</em> of oscillation of this system.
+  <br />
+
   The first mode is where mass 1 oscillates at a frequency
-  <math><msub><mi>ω</mi><mn>1</mn></msub></math>,
+  $ ω_1 $,
   with mass 2 stationary…
 </div>
+
+
 <div id="twoMasses3">
-  … And the second mode is where mass 2 oscillates at a frequency
-  <math><msub><mi>ω</mi><mn>2</mn></msub></math>,
-  with mass 1 stationary.<br /><br />
+  … And the second mode is where mass 2 oscillates at a frequency $ω_2$,
+  with mass 1 stationary.
+  <br /><br />
+
   Because these modes are independent of each other, they are in some sense
   <em>orthogonal</em> to each other; they are <em>normal modes</em>.
 </div>
+
+
 <div id="twoMasses4">
   The equations of motion for this system are simple.
-  They're just the equation for the single particle duplicated.<br />
-  \( \ddot x_1(t) = -ω_1^2 x_1(t) \)
+  They're just the equation for the single particle duplicated.
   <br />
-  \( \ddot x_2(t) = -ω_2^2 x_2(t) \)
+
+  $ \ddot x_1(t) = -ω_1^2 x_1(t) $
   <br />
+
+  $ \ddot x_2(t) = -ω_2^2 x_2(t) $
+  <br />
+
   With Solutions,
-  \( x_1(t) = A_1 \cos(ω_1 t + φ_1) \)
+  $ x_1(t) = A_1 \cos(ω_1 t + φ_1) $
   and
-  \( x_2(t) = A_2 \cos(ω_2 t + φ_2) \).
+  $ x_2(t) = A_2 \cos(ω_2 t + φ_2) $.
 </div>
+
+
 <div id="coupled1">
   So far so good, but things get more complicated once we introduce another spring;
-  this couples the two masses together, and allows them to exchange energy.<br />
-  The modes of the system are now not so simple.<br />
+  this couples the two masses together, and allows them to exchange energy.
+  <br />
+
+  The modes of the system are now not so simple.
+  <br />
+
   See what happens when you move one of the masses.
 </div>
+
+
 <div id="coupled2">
   Now the first mass does not move independently of the second,
   and the system as a whole is not moving in harmonic motion with a
-  well defined frequency.<br />
+  well defined frequency.
+  <br />
+
   See how the particles in phase space are not moving in circular,
   or even elliptical orbits any more.
 </div>
+
+
 <div id="coupled3">
   Let's look deeper to see what's going on. We have new equations of motion.
   <br />
-  \( {\color{blue}\ddot x_1(t)} = -{\color{blue}ω_1^2 x_1(t)} + \frac{\color{green}j}{\color{blue}m_1} [{\color{red} x_2(t)} - {\color{blue}x_1(t)} ] \)
+
+  $ {\color{blue}\ddot x_1(t)} = -{\color{blue}ω_1^2 x_1(t)} + \frac{\color{green}j}{\color{blue}m_1} [{\color{red} x_2(t)} - {\color{blue}x_1(t)} ] $
   <br />
-  \( {\color{red}\ddot x_2(t)} = +\frac{\color{green}j}{\color{red}m_2} [ {\color{blue} x_1(t)} - {\color{red}x_2(t)} ] - {\color{red}ω_2^2 x_2(t)} \)
+
+  $ {\color{red}\ddot x_2(t)} = +\frac{\color{green}j}{\color{red}m_2} [ {\color{blue} x_1(t)} - {\color{red}x_2(t)} ] - {\color{red}ω_2^2 x_2(t)} $
   <br />
+
   There are now cross coupling terms for the middle spring,
-  with a spring constant
-  <math><mi>j</mi></math>.
+  with a spring constant $j$.
 </div>
+
+
 <div id="coupled4">
   Again, we can put this in terms of a natural frequency for the spring.
   Defining,
-  <math>
-  <msub><mi>ω</mi><mi>j</mi></msub>
-  <mo>=</mo>
-  <msqrt><mfrac> <mi>j</mi> <mi>μ</mi> </mfrac></msqrt>
-  </math>,<br />
+  $ω_j = \sqrt{\frac{j}{μ}}$,
+  <br />
+
   where
-  <math>
-  <mi>μ</mi>
-  <mo>=</mo>
-  <mfrac>
-  <mrow>
-  <msub><mi>m</mi><mn>1</mn></msub>
-  <msub><mi>m</mi><mn>2</mn></msub>
-  </mrow>
-  <mrow>
-  <msub><mi>m</mi><mn>1</mn></msub>
-  <mo>+</mo>
-  <msub><mi>m</mi><mn>2</mn></msub>
-  </mrow>
-  </mfrac>
-  </math>
+  $μ = \frac{m_1 m_2}{m_1 + m_2}$
   is the <em>reduced mass</em> of the system.
   The equations of motion are then,
   <br />
-  \( {\color{blue}\ddot x_1(t)} = -{\color{blue}ω_1^2 x_1(t)} + \frac{μ}{\color{blue}m_1} {\color{green} ω_j^2} [ {\color{red} x_2(t)} - {\color{blue} x_1(t)} ] \)
+
+  $ {\color{blue}\ddot x_1(t)} = -{\color{blue}ω_1^2 x_1(t)} + \frac{μ}{\color{blue}m_1} {\color{green} ω_j^2} [ {\color{red} x_2(t)} - {\color{blue} x_1(t)} ] $
   <br />
-  \( {\color{red}\ddot x_2(t)} = + \frac{μ}{\color{red}m_2} {\color{green} ω_j^2} [ {\color{blue} x_1(t)} - {\color{red} x_2(t)} ] - {\color{red}ω_2^2 x_2(t)} \).
+
+  $ {\color{red}\ddot x_2(t)} = + \frac{μ}{\color{red}m_2} {\color{green} ω_j^2} [ {\color{blue} x_1(t)} - {\color{red} x_2(t)} ] - {\color{red}ω_2^2 x_2(t)} $.
 </div>
+
+
 <div id="coupled5">
   A good technique in Physics, when trying to build an intuition of a new system,
-  is to take the parameters to extreme limits.<br />
+  is to take the parameters to extreme limits.
+  <br />
+
   Let's consider what happens when the coupling frequency is much larger than
   the natural frequencies of each mass-spring pair.
-  <math>
-  <msub><mi>ω</mi><mi>j</mi></msub>
-  <mo>&gg;</mo>
-  <msub><mi>ω</mi><mn>1</mn></msub>
-  <mo>,</mo>
-  <msub><mi>ω</mi><mn>2</mn></msub>
-  </math>.
+  $ω_j \gg ω_1, ω_2$.
   In this case the masses exchange energy with each other much faster
   than they exchange their own kinetic and potential energy.
 </div>
+
+
 <div id="coupled6">
   One of the modes of the system will be the combined masses locked together and
   oscillating under the pull of a combined spring constant, with a frequency,
-  <math>
-  <msub><mi>ω</mi><mi>M</mi></msub>
-  <mo>=</mo>
-  <msqrt><mfrac><mrow>
-  <msub><mi>k</mi><mn>1</mn></msub>
-  <mo>+</mo>
-  <msub><mi>k</mi><mn>2</mn></msub>
-  </mrow><mrow>
-  <msub><mi>m</mi><mn>1</mn></msub>
-  <mo>+</mo>
-  <msub><mi>m</mi><mn>2</mn></msub>
-  </mrow></mfrac></msqrt>
-  </math>.<br />
+  $ω_M = \sqrt{\frac{k_1 + k_2}{m_1 + m_2}}$.
+  <br />
+
   As an exercise, re-write this in terms of the natural frequencies
-  <math><msub><mi>ω</mi><mn>1</mn></msub></math> and
-  <math><msub><mi>ω</mi><mn>2</mn></msub></math>.
-  Show that the combined frequency is always inbetween the two.<br />
-  As such this <em>translation mode</em> has a frequency,
-  <math><msub><mi>ω</mi><mi>M</mi></msub></math>,
-  much smaller than
-  the coupling frequency,
-  <math><msub><mi>ω</mi><mi>j</mi></msub></math>.
+  $ω_1$ and $ω_2$.
+  Show that the combined frequency is always inbetween the two.
+  <br />
+
+  As such this <em>translation mode</em> has a frequency, $ω_M$
+  much smaller than the coupling frequency, $ω_j$.
 </div>
+
+
 <div id="coupled7">
   The other mode of the system is the <em>vibration mode</em>.
   Here the masses oscillate about a stationary centre of mass.
   We won't go into details here, but if we changed coordinate system to the
   (non-inertial) rest frame of one of the masses,
   <a href="https://en.wikipedia.org/wiki/Fictitious_force" target="_blank">fictitious forces</a>
-  would make the other mass appear as if it had a reduced mass,
-  <math><mi>μ</mi></math>.
+  would make the other mass appear as if it had a reduced mass, $μ$.
   This mode therefore oscillates at the coupling frequency,
-  <math>
-  <msub><mi>ω</mi><mi>j</mi></msub>
-  <mo>=</mo>
-  <msqrt><mfrac> <mi>j</mi> <mi>μ</mi> </mfrac></msqrt>
-  </math>.<br />
+  $ω_j = \sqrt{\frac{j}{μ}}$.
+  <br />
+
   See what happens if you change the value of the masses.
 </div>
+
+
 <div id="coupled8">
   Of course, in principle, a combination of the translation and vibration mode
-  can be excited at the same time.<br />
+  can be excited at the same time.
+  <br />
+
   This isn't a mode of the system, because it's not oscillating at a single frequency,
   but it is a general solution to the system.
 </div>
+
+
 <div id="coupled9">
   Let's recap. At zero coupling strength, there are two normal modes at frequencies
-  <math><msub><mi>ω</mi><mn>1</mn></msub></math> and
-  <math><msub><mi>ω</mi><mn>2</mn></msub></math>,
-  where one mass oscillates with the other stationary and vice-versa.<br />
+  $ω_1$ and $ω_2$,
+  where one mass oscillates with the other stationary and vice-versa.
+  <br />
+
   Then at high coupling strengths, there is a <em style="color: #d400aa">low frequency</em> translation mode,
-  <math><msub><mi>ω</mi><mi>M</mi></msub></math>,
-  and a <em style="color: #60f">high frequency</em> vibration mode,
-  <math><msub><mi>ω</mi><mi>j</mi></msub></math>,
-  where both particles move, in phase and 180&deg; out of phase, respectively.<br />
+  $ω_M$, and a <em style="color: #60f">high frequency</em> vibration mode, $ω_j$,
+  where both particles move, in phase and 180° out of phase, respectively.
+  <br />
+
   For intermediate coupling strengths, the modes are a mixture of the two cases…
 </div>
+
+
 <div id="coupled10">
   Let's start with the <em style="color: #60f">high frequency</em> mode.
-  Try adjusting the coupling frequency,
-  <math><msub><mi>ω</mi><mi>j</mi></msub></math>.
+  Try adjusting the coupling frequency, $ω_j$.
   <br />
+
   For low coupling strengths, only mass 1 will be in motion
   (it has the higher natural frequency).
-  Whereas for high coupling strengths, the system will enter the vibration mode.<br />
-  For intermediate coupling, the system will oscillate at a new frequency,
-  <math><msub><mi>ω</mi><mrow><mi>u</mi><mn>1</mn></mrow></msub></math>,
-  which starts at <math><msub><mi>ω</mi><mn>1</mn></msub></math>
-  and approaches
-  <math><msub><mi>ω</mi><mi>j</mi></msub></math> from above,
-  as <math><msub><mi>ω</mi><mi>j</mi></msub></math>
-  increases.
+  Whereas for high coupling strengths, the system will enter the vibration mode.
+  <br />
+
+  For intermediate coupling, the system will oscillate at a new frequency, $ω_{u_1}$,
+  which starts at $ω_1$ and approaches $ω_j$ from above, as $ω_j$ increases.
 </div>
+
+
 <div id="coupled11">
   The case is similar with the <em style="color: #d400aa">low frequency</em> mode,
-  <math><msub><mi>ω</mi><mrow><mi>u</mi><mn>2</mn></mrow></msub></math>.
+  $ω_{u_2}$.
   This will range from
-  <math><msub><mi>ω</mi><mn>2</mn></msub></math>
+  $ω_2$
   and approach
-  <math><msub><mi>ω</mi><mi>M</mi></msub></math> from below,
-  as <math><msub><mi>ω</mi><mi>j</mi></msub></math>
-  increases.<br />
+  $ω_M$ from below,
+  as $ω_j$
+  increases.
+  <br />
+
   The way the masses move with respect to each other will transition between
   only mass 2 moving and both masses moving in phase in the translation mode.
 </div>
+
+
 <div id="masslimit1">
   Another limit we can study is if one of the masses is significantly bigger than the other,
-  i.e.
-  <math>
-  <msub><mi>m</mi><mn>2</mn></msub>
-  <mo>&gg;</mo>
-  <msub><mi>m</mi><mn>1</mn></msub>
-  </math>.<br />
+  i.e. $m_2 \gg m_1$.
+  <br />
+
   Here mass 1 has very little influence on mass 2,
-  but mass 2 can influence mass 1 significantly.<br />
+  but mass 2 can influence mass 1 significantly.
+  <br />
+
   Either mass 2 is stationary, in which case it acts like a fixed wall,
   then mass 1 will move under the combined strength of springs
-  <math>
-  <msub><mi>ω</mi><mn>1</mn></msub>
-  </math> and <math>
-  <msub><mi>ω</mi><mi>j</mi></msub>
-  </math>.<br />
+  $ω_1$ and $ω_j$.
+  <br />
+
   This is the <em style="color: #60f">upper branch</em>, it's frequency is the hyperbola,
-  <math>
-  <msub><mi>ω</mi><mrow><mi>u</mi><mn>1</mn></mrow></msub>
-  <mo>=</mo>
-  <msqrt>
-  <msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup>
-  <mo>+</mo>
-  <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-  </msqrt>
-  </math>
-  .
+  $ω_{u_1} = \sqrt{ω_1^2 + ω_j^2}$.
 </div>
+
+
 <div id="masslimit2">
   The other mode is the <em style="color: #d400aa">lower branch</em>, where mass 2 is moving.
-  Since it is dominant over mass 1, it will oscillate at it's natural frequency,
-  <math>
-  <msub><mi>ω</mi><mn>2</mn></msub>
-  </math>,
-  and mass 1 must follow.<br />
+  Since it is dominant over mass 1,
+  it will oscillate at it's natural frequency, $ω_2$,
+  and mass 1 must follow.
+  <br />
+
   The frequency of this mode is constant for all coupling strengths, at
-  <math>
-  <msub><mi>ω</mi><mrow><mi>u</mi><mn>2</mn></mrow></msub>
-  <mo>=</mo>
-  <msub><mi>ω</mi><mi>M</mi></msub>
-  <mo>=</mo>
-  <msub><mi>ω</mi><mn>2</mn></msub>
-  </math>.
+  $ω_{u_2} = ω_M = ω2$.
 </div>
+
+
 <div id="masslimit3">
   Something particularly interesting happens if we swap the relative sizes of
-  springs 1 and 2.<br />
+  springs 1 and 2.
+  <br />
+
   We still have the two mode frequencies
-  <math><msub><mi>ω</mi><mrow><mi>u</mi><mn>1</mn></mrow></msub></math> and
-  <math><msub><mi>ω</mi><mrow><mi>u</mi><mn>2</mn></mrow></msub></math>
+  $ω_{u_1}$ and $ω_{u_2}$
   limiting to a hyperbola and a constant,
   but this time the modes swap character right at the point where the curves would
-  otherwise cross.<br />
+  otherwise cross.
+  <br />
+
   This behaviour is called an <em>avoided crossing</em>,
-  and pops up occasionally in physics.<br />
+  and pops up occasionally in physics.
+  <br />
+
   Experiment with swapping the relative sizes of the natural frequencies and
   coupling frequency.
 </div>
+
+
 <div id="normalmodes1">
   With all this in mind, finding normal modes is the process of finding
   what frequencies the system oscillates at, and how each of the components
   move with respect to each other at those frequencies.
 </div>
+
+
 <div id="normalmodes2">
   Let's formalise this process. We'll write the equations of motion in matrix form.
   At this stage, this is just a book-keeping exercise, to keep the equations tidy.
   <br />
-<math>
-<mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd> <msub><mover><mi>x</mi><mo>..</mo></mover><mn>1</mn></msub>
-      <mo>(</mo><mi>t</mi><mo>)</mo>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd> <msub><mover><mi>x</mi><mo>..</mo></mover><mn>2</mn></msub>
-      <mo>(</mo><mi>t</mi><mo>)</mo>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-  </mrow>
-  <mo>=</mo>
-  <mo>-</mo>
-  <mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd>
-        <msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup>
-        <mo>+</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>1</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-      <mtd>
-        <mo>-</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>1</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd>
-        <mo>-</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>2</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-      <mtd>
-        <msubsup><mi>ω</mi><mn>2</mn><mn>2</mn></msubsup>
-        <mo>+</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>2</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-</mrow>
-  <mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd> <msub><mi>x</mi><mn>1</mn></msub>
-      <mo>(</mo><mi>t</mi><mo>)</mo>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd> <msub><mi>x</mi><mn>2</mn></msub>
-      <mo>(</mo><mi>t</mi><mo>)</mo>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-  </mrow>
-</math>.
+  $
+  \begin{bmatrix}
+    \ddot{x}_1(t) \\
+    \ddot{x}_2(t)
+  \end{bmatrix}
+  = -\begin{bmatrix}
+    ω_1^2 + \frac{μ}{m_1}ω_j^2 & -\frac{μ}{m_1}ω_j^2 \\
+    -\frac{μ}{m_2}ω_j^2 & ω_2^2 + \frac{μ}{m_2}ω_j^2
+  \end{bmatrix}
+  \begin{bmatrix}
+    x_1(t) \\
+    x_2(t)
+  \end{bmatrix}
+  $.
 </div>
+
+
 <div id="normalmodes3">
-In principle,
-<math>
-  <mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd> <msub><mi>x</mi><mn>1</mn></msub>
-      <mo>(</mo><mi>t</mi><mo>)</mo>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd> <msub><mi>x</mi><mn>2</mn></msub>
-      <mo>(</mo><mi>t</mi><mo>)</mo>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-  </mrow>
-  </math>
+  In principle,
+  $\begin{bmatrix}
+    x_1(t) \\
+    x_2(t)
+  \end{bmatrix}$
   has a complicated general solution, as animated below.
   In order to find the normal modes, we can use the differential equations trick:
   assume we already have a normal mode, plug it into the equations of motion,
   and test the implications.
 </div>
+
+
 <div id="normalmodes4">
-  Let's assume a trial solution,<br />
-  \(  \begin{bmatrix} x_1(t) \\ x_2(t) \end{bmatrix} \rightarrow
+  Let's assume a trial solution,
+  <br />
+
+  $ \begin{bmatrix} x_1(t) \\ x_2(t) \end{bmatrix} \rightarrow
       \mathbf{u}(t) = A \hat{\mathbf{u}}\cos(ω t + φ)
-  \),
+  $,
   where
-  \(  \hat{\mathbf{u}} \)
-  is a constant 2D vector.<br />
+  $ \hat{\mathbf{u}} $
+  is a constant 2D vector.
+  <br />
+
   Then the second derivative also has simple form,
-  \(  \begin{bmatrix} \ddot{x}_1(t) \\ \ddot{x}_2(t) \end{bmatrix} \rightarrow
+  $ \begin{bmatrix} \ddot{x}_1(t) \\ \ddot{x}_2(t) \end{bmatrix} \rightarrow
       -ω^2 A \hat{\mathbf{u}}\cos(ω t + φ)
       =
       -ω^2\mathbf{u}(t)
-  \).
+  $.
 </div>
+
+
 <div id="normalmodes5">
   We can then feed our test solution back into the equations of motion,
   <br />
-  <math>
-  <mo> - </mo>
-  <msup><mi>ω</mi><mn>2</mn></msup>
-  <mi>A</mi>
-  <mrow>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  <mrow>
-  <mo>cos</mo><mo>(</mo>
-  <mi>ω</mi>
-  <mi>t</mi>
-  <mo>+</mo>
-  <mi>φ</mi>
-  <mo>)</mo>
-  </mrow>
-  <mo>=</mo>
-  <mo>-</mo>
-  <mi>A</mi>
-  <mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd>
-        <msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup>
-        <mo>+</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>1</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-      <mtd>
-        <mo>-</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>1</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd>
-        <mo>-</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>2</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-      <mtd>
-        <msubsup><mi>ω</mi><mn>2</mn><mn>2</mn></msubsup>
-        <mo>+</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>2</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-</mrow>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  <mrow>
-  <mo>cos</mo><mo>(</mo>
-  <mi>ω</mi>
-  <mi>t</mi>
-  <mo>+</mo>
-  <mi>φ</mi>
-  <mo>)</mo>
-  </mrow>
-</math>,
-<br />
-which we can simplify by dividing out common terms…
+
+  $
+  -ω^2 A\hat{\mathbf{u}} \cos(ωt + φ)
+  = -A\begin{bmatrix}
+    ω_1^2 + \frac{μ}{m_1}ω_j^2 & -\frac{μ}{m_1}ω_j^2 \\
+    -\frac{μ}{m_2}ω_j^2 & ω_2^2 + \frac{μ}{m_2}ω_j^2
+  \end{bmatrix}
+  \hat{\mathbf{u}} \cos(ωt + φ)
+  $,
+  <br />
+
+  which we can simplify by dividing out common terms…
 </div>
+
+
 <div id="normalmodes6">
   This gives us,
   <br />
-  <math>
-  <msup><mi>ω</mi><mn>2</mn></msup>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  <mo>=</mo>
-  <mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd>
-        <msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup>
-        <mo>+</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>1</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-      <mtd>
-        <mo>-</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>1</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-    </mtr>
-    <mtr>
-      <mtd>
-        <mo>-</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>2</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-      <mtd>
-        <msubsup><mi>ω</mi><mn>2</mn><mn>2</mn></msubsup>
-        <mo>+</mo>
-        <mfrac> <mi>μ</mi> <msub><mi>m</mi><mn>2</mn></msub> </mfrac>
-        <msubsup><mi>ω</mi><mi>j</mi><mn>2</mn></msubsup>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-</mrow>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-</math>,
-<br />
-or, \( ω^2 \hat{\mathbf{u}} = \mathbf{M} \hat{\mathbf{u}} \),
-which is independent of
-<math><mi>A</mi></math> and <math><mi>φ</mi></math>,
-but gives us a condition for <math><mi>ω</mi></math> and
-<math><mover><mi mathvariant="bold">u</mi><mo>^</mo></mover></math>.
-</div>
-<div id="normalmodes7">
-That is, our trial solution,
-  <math>
-  <mrow>
-  <mi mathvariant="bold">u</mi>
-  <mo>(</mo><mi>t</mi><mo>)</mo>
-  <mo> = </mo>
-  <mi>A</mi>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  <mo>cos</mo><mo>(</mo>
-  <mi>ω</mi>
-  <mi>t</mi>
-  <mo>+</mo>
-  <mi>φ</mi>
-  <mo>)</mo>
-  </math>,
-  is <em>only</em> a normal mode if
-  <math><mi>ω</mi></math> and <math><mi>r</mi></math>
-  satisfy the matrix eigenvalue equation,
-  <math>
-  <mi mathvariant="bold">M</mi>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  <mo>=</mo>
-  <msup><mi>ω</mi><mn>2</mn></msup>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  </math>.
+
+  $ ω^2 \hat{\mathbf{u}}
+  = \begin{bmatrix}
+    ω_1^2 + \frac{μ}{m_1}ω_j^2 & -\frac{μ}{m_1}ω_j^2 \\
+    -\frac{μ}{m_2}ω_j^2 & ω_2^2 + \frac{μ}{m_2}ω_j^2
+  \end{bmatrix}
+  \hat{\mathbf{u}}
+  $,
   <br />
+
+  or, $ ω^2 \hat{\mathbf{u}} = \mathbf{M} \hat{\mathbf{u}} $,
+  which is independent of $A$ and $φ$,
+  but gives us a condition for $ω$ and $\hat{\mathbf{u}}$.
+</div>
+
+
+<div id="normalmodes7">
+  That is, our trial solution, $\mathbf{u}(t) = A \hat{\mathbf{u}} \cos(ωt+φ)$,
+  is <em>only</em> a normal mode if $ω$ and $\hat{\mathbf{u}}$
+  satisfy the matrix eigenvalue equation,
+  $\mathbf{M}\hat{\mathbf{u}} = ω^2\hat{\mathbf{u}}$.
+  <br />
+
   We won't explicitly solve the system in this worksheet, except to say
-  there will be two solutions,<br />
-  <math>
-  <msub><mi>ω</mi><mrow><mi>u</mi><mn>1</mn></mrow></msub>
-  </math>,
-  <math>
-  <msub>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  <mn>1</mn>
-  </msub>
-  <mo>=</mo>
-  <mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd> <mn>1</mn> </mtd>
-    </mtr>
-    <mtr>
-      <mtd> <msub><mi>r</mi><mn>1</mn></msub>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-  </mrow>
-  </math>
-  and
-  <math>
-  <msub><mi>ω</mi><mrow><mi>u</mi><mn>2</mn></mrow></msub>
-  </math>,
-  <math>
-  <msub>
-  <mover><mi mathvariant="bold">u</mi><mo>^</mo></mover>
-  <mn>2</mn>
-  </msub>
-  <mo>=</mo>
-  <mrow>
-  <mo> [ </mo>
-  <mtable>
-    <mtr>
-      <mtd> <msub><mi>r</mi><mn>2</mn></msub> </mtd>
-    </mtr>
-    <mtr>
-      <mtd> <mn>1</mn>
-      </mtd>
-    </mtr>
-  </mtable>
-  <mo> ] </mo>
-  </mrow>
-  </math>,
+  there will be two solutions,
+  <br />
+
+  $ω_{u_1}, \hat{\mathbf{u}}_1 = \begin{bmatrix}1 \\ r_1\end{bmatrix}$
+  and $ω_{u_2}, \hat{\mathbf{u}}_2 = \begin{bmatrix}r_2 \\ 1\end{bmatrix}$,
   and we've seen these frequencies previously.
 </div>
+
+
 <div id="normalmodes8">
-  The normal modes of the system, defined by their
-  frequency, <math><mi>ω</mi></math>,
-  and configuration of components
-  <math><mover><mi mathvariant="bold">u</mi><mo>^</mo></mover></math>,
+  The normal modes of the system, defined by their frequency, $ω$,
+  and configuration of components $\hat{\mathbf{u}}$,
   oscillate independently of each other.
-  By calculating the normal modes, we move from a description of the system with simple parts and complicated motion
-  (<math><mi mathvariant="bold">x</mi><mo>(</mo><mi>t</mi><mo>)</mo></math>)
-  to a description with complicated parts but simple motion
-  (<math><mi mathvariant="bold">u</mi><mo>(</mo><mi>t</mi><mo>)</mo></math>).
-  We have solved for two un-coupled oscillators in an abstract space.<br />
+  By calculating the normal modes,
+  we move from a description of the system with simple parts and complicated motion
+  ($\mathbf{x}(t)$) to a description with complicated parts but simple motion ($\mathbf{u}(t)$).
+  We have solved for two un-coupled oscillators in an abstract space.
+  <br />
+
   Use the new controls below to alter the normal mode amplitudes directly.
 </div>
+
+
 <div id="outro">
-  <strong>Coupled Harmonic Oscillator</strong> - A. Freddie Page, Imperial College London<br />
+  <strong>Coupled Harmonic Oscillator</strong> - A. Freddie Page, Imperial College London
+  <br />
+
   This is the end of the worksheet, please feel free to
   <a href="mailto:a.page11@imperial.ac.uk">email me</a>
-  any feedback.<br />
+  any feedback.
+  <br />
+
   From here you might find it instructive to skim through the worksheet again
   with all the
   <a href="" onclick="return MODULE.proMode();">controls enabled</a>, or go ahead to the last page with
   <a href="" onclick="return MODULE.next();">extra stats</a>.
   <br />
+
   <div style="font-size: small; margin-top: 3px;">
   <em>The career of a young theoretical physicist consists of treating the harmonic oscillator in ever-increasing levels of abstraction</em>
   -&nbsp;Sidney&nbsp;Coleman (1937-2007)
   </div>
 </div>
+
+
 <div id="end">
-  <strong>Extra Stats</strong><br />
+  <strong>Extra Stats</strong>
+  <br />
+
   <table style="width:100%; text-align: right">
   <tr>
-    <td><math><msub><mi>A</mi><mn>1</mn></msub></math></td>
+    <td>$A_1$</td>
     <td><input id="A1" style="width:100%;" readonly="true" /></td>
-    <td><math><msub><mi>A</mi><mn>2</mn></msub></math></td>
+    <td>$A_2$</td>
     <td><input id="A2" style="width:100%;" readonly="true" /></td>
-    <td><math><msub><mi>ω</mi><mrow><mi>u</mi><mn>1</mn></mrow></msub></math></td>
+    <td>$ω_{u_1}$</td>
     <td><input id="ωu1" style="width:100%;" readonly="true" /></td>
-    <td><math><msub><mi>ω</mi><mrow><mi>u</mi><mn>2</mn></mrow></msub></math></td>
+    <td>$ω_{u_2}$</td>
     <td><input id="ωu2" style="width:100%;" readonly="true" /></td>
   </tr>
   <tr>
-    <td><math><msub><mi>φ</mi><mn>1</mn></msub></math></td>
+    <td>$φ_1$</td>
     <td><input id="φ1" style="width:100%;" readonly="true" /></td>
-    <td><math><msub><mi>φ</mi><mn>2</mn></msub></math></td>
+    <td>$φ_2$</td>
     <td><input id="φ2" style="width:100%;" readonly="true"/></td>
-    <td><math><msub><mi>r</mi><mn>1</mn></msub></math></td>
+    <td>$r_1$</td>
     <td><input id="r1" style="width:100%;" readonly="true" /></td>
-    <td><math><msub><mi>r</mi><mn>2</mn></msub></math></td>
+    <td>$r_2$</td>
     <td><input id="r2" style="width:100%;" readonly="true" /></td>
   </tr>
   <tr>
-    <td><math><msub><mi>k</mi><mn>1</mn></msub></math></td>
+    <td>$k_1$</td>
     <td><input id="k1" style="width:100%;" readonly="true"/></td>
-    <td><math><msub><mi>k</mi><mn>2</mn></msub></math></td>
+    <td>$k_2$</td>
     <td><input id="k2" style="width:100%;" readonly="true"/></td>
-    <td><math><mi>j</mi></math></td>
+    <td>$j$</td>
     <td><input id="j" style="width:100%;" readonly="true"/></td>
-    <td><math><mi>η</mi></math></td>
+    <td>$η$</td>
     <td><input id="η" style="width:100%;" readonly="true"/></td>
   </tr>
   </table>
